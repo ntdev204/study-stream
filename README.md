@@ -1,1 +1,1 @@
-# 🏗️ StudyStream
+# 🏫 StudyStream
