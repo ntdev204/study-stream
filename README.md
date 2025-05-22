@@ -6,47 +6,13 @@
 
 ## 📚 Table of Contents
 
-- [🎓 Study Stream - Learning Management System](#-study-stream---learning-management-system)
-  - [📚 Table of Contents](#-table-of-contents)
-  - [✨ Features](#-features)
-  - [🧰 Tech Stack](#-tech-stack)
-  - [🚀 Getting Started](#-getting-started)
-    - [Prerequisites](#prerequisites)
-  - [🧪 Local Setup](#-local-setup)
-    - [Clone the repo](#clone-the-repo)
-    - [Frontend](#frontend)
-    - [Backend](#backend)
-  - [📁 Project Structure](#-project-structure)
-  - [📄 License](#-license)
-  - [📬 Contact](#-contact)
-
 ---
 
 ## ✨ Features
 
-- 🔐 Secure Authentication & Authorization (JWT, Role-based)
-- 🧑‍🏫 Admin/Instructor/Student/Employer Dashboards
-- 📘 Course & Content Management
-- 📈 Skill & Progress Tracking
-- 🧠 AI Assistant for Learning (Quiz Generator, Smart Feedback)
-- 💬 REST, GraphQL, gRPC APIs
-- ☁️ Fully Containerized & Scalable with Docker & Kubernetes
-- ✅ Unit, Integration, and E2E Testing
-- 🌐 API Gateway (Express.js)
-- 🌍 Multi-language, mobile-first frontend with Next.js 15
-
 ---
 
 ## 🧰 Tech Stack
-
-| Layer       | Technology                                              |
-| ----------- | ------------------------------------------------------- |
-| Frontend    | Next.js 15, Tailwind CSS, NextAuth                      |
-| API Gateway | Node.js (Express.js)                                    |
-| Backend     | Java 21, Spring Boot (Microservices), Redis, PostgreSQL |
-| AI Module   | Python, FastAPI, OpenAI, LangChain                      |
-| DevOps      | Docker, GitHub Actions, Kubernetes (K8s), Helm          |
-| Protocols   | REST, GraphQL, gRPC                                     |
 
 ---
 
