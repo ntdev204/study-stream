@@ -1,6 +1,6 @@
-# Contributing to StudyStream
+# Contributing to Study Stream
 
-Thank you for your interest in contributing to StudyStream! We welcome contributions from the community to help improve the project.
+Thank you for your interest in contributing to Study Stream! We welcome contributions from the community to help improve the project.
 
 ## How to Contribute
 

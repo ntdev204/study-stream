@@ -8,29 +8,32 @@ Welcome to the StudyStream project! This guide will help you set up the developm
 
 Make sure you have the following installed on your machine:
 
-- [Node.js](https://nodejs.org/) (v16 or later) — for frontend and backend (if using Node)
-- [Docker](https://www.docker.com/get-started) — for containerized services (optional but recommended)
-- [Java JDK](https://adoptium.net/) (version 17 or later) — if backend is Spring Boot
-- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/) — package managers
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [Docker](https://www.docker.com/get-started)
+- [Java JDK](https://adoptium.net/) (version 17 or later)
+- [Python](https://www.python.org/downloads/) (version 3.10 or later)
 
 ---
 
-## Clone the Repository
+## 🧪 Local Setup
+
+### Clone the repo
 
 ```bash
-git clone https://github.com/ntdev204/modern-portfolio.git
+git clone https://github.com/your-org/study-stream.git
 cd study-stream
+
+docker-compose up --build
 ```
 
----
-
-## Install dependencies
+### Frontend
 
 1. Client
 
    ```bash
    cd frontend/client
    npm install
+   npm run dev
    ```
 
 2. Admin
@@ -38,44 +41,32 @@ cd study-stream
    ```bash
    cd frontend/admin
    npm install
+   npm run dev
    ```
 
-3. Gateway
+### Backend
+
+1. API Gateway
 
    ```bash
    cd backend/gateway
    npm install
-   ```
-
----
-
-## Environment Variables
-
-Make sure to create `.env` files in each folder if needed, based on the .env.example files provided.
-
----
-
-## Run the Project
-
-1. Client
-
-   ```bash
-   cd frontend/client
    npm run dev
    ```
 
-2. Admin
+2. Services
 
    ```bash
-   cd frontend/admin
-   npm run dev
+   cd backend/services/<service-name>
+   ./mvnw spring-boot:run
    ```
 
-3. Gateway
+3. AI Module
 
    ```bash
-   cd backend/gateway
-   npm run dev
+   cd backend/ai
+   pip install -r requirements.txt
+   uvicorn app.main:app --reload
    ```
 
 ---
