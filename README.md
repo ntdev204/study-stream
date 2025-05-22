@@ -73,7 +73,7 @@ We welcome contributions, issues, and feature requests!
 
 ## 👤 Author
 
-- **Nguyen Ngoc Thien**
+- Founder: **Nguyen Ngoc Thien**
 - Github: [@ntdev204](https://github.com/ntdev204)
 
 ## 📄 License
