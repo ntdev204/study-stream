@@ -1,6 +1,6 @@
 # 🎓 Study Stream - Learning Management System
 
-![GitHub license](https://img.shields.io/github/license/ntdev204/study-stream) ![GitHub issues](https://img.shields.io/github/issues/ntdev204/study-stream) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![GitHub issues](https://img.shields.io/github/issues/ntdev204/study-stream) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) ![Last Commit](https://img.shields.io/github/last-commit/ntdev204/study-stream) ![Stars](https://img.shields.io/github/stars/ntdev204/study-stream?style=social)
 
 **Study Stream** is a modern, microservice-based Learning Management System (LMS) that empowers students to learn smarter, track skills, and get personalized AI support. It also enables instructors and employers to create, manage, and assess courses and learners efficiently.
 
