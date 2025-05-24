@@ -33,10 +33,13 @@ learnsphere/
 │
 ├── docker/
 │
+├── ai-engine/
+│
+├── api-gateway/
+│
 ├── backend/
-│   ├── api-gateway/
-│   ├── services/
-│   ├── ai/
+│
+├── docker/
 │
 ├── docs/
 │
